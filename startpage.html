@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Libre+Barcode+128+Text&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <!-- VV this is to font awesome, you need to get a free user and set up your own credentials in the integrity thingy VV -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Welcome Back</title>
+</head>
+
+<body class="px-5 py-5">
+    <img src="images/pic4.png" class="zero-two-bg-pic" />
+    <h1 class="text-center">WELCOME BACK</h1>
+
+    <div class="center-container px-5">
+        <!-- category select -->
+        <div class="row">
+            <div onclick="onSocialClick()" class="col text-center category-selector category-selector-socials">
+                <p>
+                    Socials
+                </p>
+            </div>
+            <div onclick="onNewsClick()" class="col text-center category-selector category-selector-news">
+                <p>
+                    News
+                </p>
+            </div>
+            <div onclick="onMediaClick()" class="col text-center category-selector category-selector-media">
+                <p>
+                    Media
+                </p>
+            </div>
+        </div>
+        <!-- /category select -->
+
+        <!-- default links -->
+        <div class="link-container my-5">
+
+            <div class="row">
+                <div class="link col">
+                    <a href="https://nyandoggo.com">
+                        <i class="fas fa-desktop"></i> NyanDoggo
+                    </a>
+                </div>
+                <div class="link col">
+                    <!-- VV ive replaced this link with google.com -->
+                    <a href="https://google.com">
+                        <i class="far fa-heart"></i> google
+                    </a>
+                </div>
+                <div class="link col">
+                    <!-- VV ive replaced this link with google.com -->
+                    <a href="https://google.com">
+                        <i class="far fa-heart"></i> google
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="link col">
+                    <a href="https://mail.google.com/mail/u/0/#inbox">
+                        <i class="fas fa-envelope-open-text"></i> mail - pri
+                    </a>
+                </div>
+                <div class="link col">
+                    <!-- VV ive replaced this link with google.com -->
+                    <a href="https://google.com">
+                        <i class="far fa-heart"></i> google
+                    </a>
+                </div>
+                <div class="link col">
+                </div>
+            </div>
+        </div>
+        <!-- /default links -->
+
+        <!-- social links -->
+        <div class="social-link-container my-5 hidden">
+            <img onclick="onCloseClick()" src="images/close3.png" class="svg-close-icon">
+
+            <div class="row">
+                <div class="social-link col">
+                    <a href="https://twitter.com/home">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+                <div class="social-link col">
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-square"></i> Facebook
+                    </a>
+                </div>
+                <div class="social-link col">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram-square"></i> Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="social-link col">
+                    <a href="https://www.reddit.com/">
+                        <i class="fab fa-reddit-square"></i> Reddit
+                    </a>
+                </div>
+                <div class="social-link col">
+                </div>
+                <div class="social-link col">
+                </div>
+            </div>
+        </div>
+        <!-- /social links -->
+
+        <!-- news links -->
+        <div class="news-link-container my-5 hidden">
+            <img onclick="onCloseClick()" src="images/close.png" class="svg-close-icon">
+
+            <div class="row">
+                <div class="news-link col">
+                    <a href="https://www.nrk.no/">
+                        <i class="fas fa-rss-square"></i> NRK
+                    </a>
+                </div>
+                <div class="news-link col">
+                    <a href="https://vg.no/">
+                        <i class="far fa-newspaper"></i> VG
+                    </a>
+                </div>
+                <div class="news-link col">
+                    <a href="https://www.BBC.com/">
+                        <i class="fas fa-scroll"></i> BBC
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="news-link col">
+                    <a href="https://www.rt.com/">
+                        <i class="fas fa-bullhorn"></i> RT
+                    </a>
+                </div>
+                <div class="news-link col">
+                </div>
+                <div class="news-link col">
+                </div>
+            </div>
+        </div>
+        <!-- /news links -->
+
+        <!-- media links -->
+        <div class="media-link-container my-5 hidden">
+            <img onclick="onCloseClick()" src="images/close2.png" class="svg-close-icon">
+
+            <div class="row">
+                <div class="media-link col">
+                    <a href="https://youtube.com">
+                        <i class="fab fa-youtube"></i> Youtube
+                    </a>
+                </div>
+                <div class="media-link col">
+                    <a href="https://www.twitch.tv">
+                        <i class="fab fa-twitch"></i> Twitch
+                    </a>
+                </div>
+                <div class="media-link col">
+                    <a href="https://www.crunchyroll.com/">
+                        <i class="fas fa-tv"></i> Crunchyroll
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /media links -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
