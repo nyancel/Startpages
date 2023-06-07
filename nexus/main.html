@@ -11,49 +11,29 @@
 </head>
 
 <body>
-	<div class="flex">
-		<div class="m-auto bg-gallery-950 w-5/6 mt-12 p-6 border-2 border-gallery-950 border-solid">
+	<div class="absolute -z-10 flex-1 overflow-hidden h-screen w-screen">
+		<img class="min-h-full min-w-full filter blur-md" src="./arty.jpg" />
+
+	</div>
+
+	<div class="flex h-screen">
+		<div class="align-middle m-auto bg-gallery-950 w-5/6 p-6 border-2 border-gallery-950 border-solid">
 			<p class="font-bold text-carnation-400">
 				user@internet: ~/startpage$ <span class="text-gallery-50 font-normal">nexus --options</span>
 			</p>
 
-			<div class="grid grid-cols-4 my-3">
-				<div>
-					<p class="text-shamrock-500 font-bold">
-						Social options:
-					</p>
-					<p>
-						<a target="_blank" href="https://www.twitter.com">1. twitter</a>
-					</p>
-					<p>
-						<a target="_blank" href="https://www.reddit.com">2. reddit</a>
-					</p>
-					<p>
-						<a target="_blank" href="https://www.4chan.org">3. 4chan</a>
-					</p>
-					<p>
-						<a target="_blank" href="https://www.furkin.chat">4. furkin</a>
-					</p>
-				</div>
-				<div>
-					<p class="text-shamrock-500 font-bold">
-						Media options:
-					</p>
-					<p>
-						<a target="_blank" href="https://www.youtube.com">1. youtube</a>
-					</p>
-					<p>
-						<a target="_blank" href="https://www.twitch.tv">2. twitch</a>
-					</p>
-				</div>
-
+			<div id="display-grid" class="grid grid-cols-4 my-3">
+				<!-- text-shamrock-500 font-bold -->
 			</div>
 
 			<p class="font-bold text-carnation-400 mt-4">
-				user@internet: ~/startpage$ <span id="user-command-line-blinker" class="font-normal text-gallery-50">_</span>
+				user@internet: ~/startpage$ <span id="user-command-line-input"
+					class="font-normal text-gallery-50"></span><span id="user-command-line-blinker"
+					class="font-normal text-gallery-50">_</span>
 			</p>
 		</div>
 	</div>
+
 
 	<div class="absolute bottom-0 left-0 flex bg-gallery-950 py-2 px-10 w-screen">
 		<div id="status-bar-date" class="mx-4 text-lg font-bold text-carnation-500">
@@ -64,6 +44,8 @@
 		</div>
 	</div>
 
+
+	<script src="linkConfig.js"></script>
 	<script src="main.js"></script>
 </body>
 
