@@ -8,15 +8,15 @@ const linkConfig = [
             },
             {
                 showAs: "reddit",
-                link: "https://www.twitter.com"
+                link: "https://www.reddit.com"
             },
             {
                 showAs: "4chan",
-                link: "https://www.twitter.com"
+                link: "https://www.4chan.org"
             },
             {
                 showAs: "furkin",
-                link: "https://www.twitter.com"
+                link: "https://www.furkin.chat"
             },
         ],
     },
@@ -25,19 +25,19 @@ const linkConfig = [
         links: [
             {
                 showAs: "youtube",
-                link: "https://www.twitter.com"
+                link: "https://www.youtube.com"
             },
             {
                 showAs: "twitch",
-                link: "https://www.twitter.com"
+                link: "https://www.twitch.tv"
             },
             {
                 showAs: "spotify",
-                link: "https://www.twitter.com"
+                link: "https://open.spotify.com"
             },
             {
                 showAs: "soundcloud",
-                link: "https://www.twitter.com"
+                link: "https://www.soudcloud.com"
             },
         ],
     },
