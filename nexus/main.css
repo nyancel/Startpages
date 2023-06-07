@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@keyframes commandLineBlinker {
+    0% {
+        background-color: inherit;
+    }
+
+    40% {
+        background-color: inherit;
+    }
+
+    50% {
+        background-color: var(--gallery-50);
+    }
+
+    90% {
+        background-color: var(--gallery-50);
+    }
+}
+
+* {
+    --gallery-50: #f8f8f8;
+    --gallery-100: #eeeeee;
+    --gallery-200: #e4e4e4;
+    --gallery-300: #d1d1d1;
+    --gallery-400: #b4b4b4;
+    --gallery-500: #9a9a9a;
+    --gallery-600: #818181;
+    --gallery-700: #6a6a6a;
+    --gallery-800: #5a5a5a;
+    --gallery-900: #4e4e4e;
+    --gallery-950: #282828;
+
+    --carnation-50: #fef3f2;
+    --carnation-100: #ffe4e1;
+    --carnation-200: #ffcdc8;
+    --carnation-300: #ffaba2;
+    --carnation-400: #fd7a6c;
+    --carnation-500: #f66151;
+    --carnation-600: #e23320;
+    --carnation-700: #bf2616;
+    --carnation-800: #9d2417;
+    --carnation-900: #82241a;
+    --carnation-950: #470e08;
+
+
+}
+
+body {
+    color: var(--gallery-50);
+    background-color: var(--gallery-900);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
+
+#user-command-line-blinker {
+    animation-name: commandLineBlinker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
