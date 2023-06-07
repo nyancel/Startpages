@@ -20,3 +20,7 @@ to work with as your browser of choice.
 this was the first project, it uses bootstrap and VanillaJS to display a collection of links in 4 different menus. simple but efficient, and easily customizable imo 
 ![zt_original visualization](zt_original/first%20demo.gif)
 
+* `nexus`:
+this is a simple project set up with vanilla JS and tailwind, it has a minimal display, impersonating a terminal
+![nexus visualization](nexus/visual.png)
+
