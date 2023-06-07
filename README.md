@@ -6,12 +6,12 @@ the project a bit, including more examples of potential start-pages, consider th
 
 ### What is a startpage?
 
-a startpage is a "locally hosted" (usually just a .html file stored on the device and accesed by a filepath) 
+a startpage is a "locally hosted" (usually just a .html file stored on the device and accessed by a filepath) 
 html page that serves as the "homepage" for your browser, this is the page that
 first opens when you launch your browser, and could be the default page for new tabs in your browser of choice
-with that said the ability to utlize startpages differs from browser to browser. in general the consesus seems to be
+with that said the ability to utilize startpages differs from browser to browser. in general the consensus seems to be
 that browsers like firefox offers more flexibility in terms of customization for these things then for instance chrome. 
-but with a plethora of browsers and extensions for each of them these startpages are useufll no matter what you choose
+but with a plethora of browsers and extensions for each of them these startpages are usefull no matter what you choose
 to work with as your browser of choice.
 
 ### what is in the project?
@@ -21,6 +21,9 @@ this was the first project, it uses bootstrap and VanillaJS to display a collect
 ![zt_original visualization](zt_original/first%20demo.gif)
 
 * `nexus`:
-this is a simple project set up with vanilla JS and tailwind, it has a minimal display, impersonating a terminal
+this is a simple project set up with vanilla JS and tailwind, it has a minimal display, impersonating a terminal.
+the links are organized into categories in the linkConfig.js file, so that they can be easily changed.
+
+the startpage allows you to either interact with links directly by clicking, or through a more text-based approach, where you type the name of the page you wish to visit and press enter. if that page is in the config your browser opens a new window for you. the startpage also supports autocomplete and cycling using the tabkey, so you could type the first few characters of a site, then press tab to cycle through all pages starting with that character, before pressing enter to launch a new tab in your browser
 ![nexus visualization](nexus/visual.png)
 
