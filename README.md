@@ -25,3 +25,7 @@ this is a simple project set up with vanilla JS and tailwind, it has a minimal d
 the links are organized into categories in the linkConfig.js file, so that they can be easily changed. the startpage allows you to either interact with links directly by clicking, or through a more text-based approach, where you type the name of the page you wish to visit and press enter. if that page is in the config your browser opens a new window for you. the startpage also supports autocomplete and cycling using the tabkey, so you could type the first few characters of a site, then press tab to cycle through all pages starting with that character, before pressing enter to launch a new tab in your browser
 ![nexus visualization](nexus/visual.png)
 
+* `Z3R0`:
+Zero introduces the usage of the geo-location api to provide a clean interface that shows user-specific
+data as part of the system status line. including current location and weather, using 3rd party FOS API's
+that provide weather-information and revers geocoding services.
