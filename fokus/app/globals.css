@@ -7,3 +7,17 @@
 :root {
   font-family: 'Titillium Web', sans-serif;
 }
+
+@layer components {
+  .note h1 {
+    @apply text-3xl font-bold;
+  }
+
+  .note h2 {
+    @apply text-2xl font-bold;
+  }
+
+  .note h3 {
+    @apply text-xl font-bold;
+  }
+}
