@@ -28,4 +28,4 @@ the links are organized into categories in the linkConfig.js file, so that they 
 * `Z3R0`:
 Zero introduces the usage of the geo-location api to provide a clean interface that shows user-specific
 data as part of the system status line. including current location and weather, using 3rd party FOS API's
-that provide weather-information and revers geocoding services.
+that provide weather-information and reverse geocoding services.
